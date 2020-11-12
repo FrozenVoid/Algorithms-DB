@@ -1,0 +1,8 @@
+A content piece with N points is ranked with log(n) rank.
+log() compresses ranges into a format easily understood as magnitude(2^f)
+where f grows fast in low range and changes slowly with large numbers;
+10^e=2^(2.3*e) giving about ~2.3 unit length to each 10^e <>10^e+1 interval(an order of magnitide) e.g. 1000=6.9077 rank=~2.3*3(1e3).
+
+
+
+
