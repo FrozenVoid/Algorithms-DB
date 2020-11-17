@@ -1,13 +1,17 @@
 A compatibility rating can be defined as "average compatibility of overlapping user sets"
-+ "average intersection percent(overlapping) between user sets".
+and "average intersection percent(overlapping) between user sets"(multiplied to reach similarity rating).
 where users A,B complete similar question sets:
 the distance between each answer to question is the "opinion compatibility" where
 same answer is 100% compatibility, similar is 75%-90%(depedent on similarity),
-a compromise is 25-50% and different answer is 0%.
+a compromise is 25-75% and different answer is 0-25%.
 These compatibilities are summed and divided by their number to reach average.
+
 Second metric being "percent intersection of interests" where the percentage of
 overlapping portion of question sets from the each user complete question sets
 are summed and divided by number of users in a group:
 e.g. user A has 40% intersection with User B question Sets(40% of user A interests are same
  as User B), where 50% of user B interests overlap with A, giving (50+40)/2=45% average
  intersetion.
+ 
+Interpretation: the product of average compatibility% and average intersection% could be used as rough
+metric for similarity inside a user set, with larger user sets having less compatibility% but more overlapping due sampling reaching more of content.
