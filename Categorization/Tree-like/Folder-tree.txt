@@ -1,0 +1,24 @@
+A folder tree representation of content is a direct translation 
+of filesystem object hierarchy. 
+example:
+website.com/category1/subcategory/subcategory2/content.htm
+category1 is a subfolder at website.com "main" folder.
+
+Advantages:
+Very easy to setup and secure.
+Granular caching of each piece of content vs huge database.
+Atomic writes with file locking and exclusive mmaps.
+very fast vs domains/tags/databases due low overhead(filesystem-based)
+Up/down navigation of content allows fast expansion/narrowing of search scope.
+Corruption/damage of one file doesn't affect anything else.
+
+Disadvantages:
+Not suited for managing small objects/strings/numbers as monolithic DB 
+is going outperform tiny files.(However if filesystem has metadata fields
+(writeable generic strings), empty files with metadata will outperform 
+databases on some metrics)
+Searching is category-based.(Note;as above search with metadata
+caching/indexing may outperform
+databases dependent on filesystem implementation)
+Not suited for dynamic or generated content vs databases.(However any algoritmically generated
+content can be created from files as parameter)
