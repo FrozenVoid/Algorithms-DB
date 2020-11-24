@@ -1,0 +1,4 @@
+With a zero component in ratings, such as e.g. 50 likes 0 dislikes,
+the ratio 50/0 would be nan or infinity.
+This is fixed by adding 1 to each component giving 51/1
+f(c1,c2)=(c1+1)/(c2+1) 
