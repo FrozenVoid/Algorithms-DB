@@ -1,0 +1,10 @@
+Grey code is simply a transformation of bitstring
+to a form representing a delta between each bit.
+
+Grey code can be applied recursively
+to its own output to select for least-entropy
+bitstring that can be later compressed by some other method.
+
+Grey code can be easily recovered back
+to original form:
+https://en.wikipedia.org/wiki/Gray_code#Converting_to_and_from_Gray_code
