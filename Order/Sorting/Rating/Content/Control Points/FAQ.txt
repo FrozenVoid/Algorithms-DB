@@ -1,0 +1,134 @@
+Q;what if a bot registers a thousand accounts?
+After they are banned the control points(a thousand control points)
+of banned users disappear and have no effect.
+The user initial score is 1
+(single control point which can be assigned to anyone, 
+but reduce own score by 1),thus low initial points +
+low awarded points from other existing 
+users make this less appealing.
+
+Q;How will the users cope with lack of points?
+Revoking points from users they feel 
+less deserving of now and assigning to
+users they feel are more deserving them now.
+They can see their own allocation of control points
+as list. 
+
+Q;how the points would be displayed?
+sorted by score from users
+User A:
+Total score:56 points
+40 points from user D
+6 points awarded for active site use(6 weeks use)
+5 point from user B
+4 initial points(unassigned)
+1 point from user C
+etc, could be a hundred pages of users
+
+Q;Will this allow to construct social graphs of groups?
+Yes, this is by design to allow everyone to see 
+where the user X support comes from, and check 
+the scores of his supporters(but not where they allocate
+points).
+
+Q:Will network of self-supporting bots/shills
+each assigning points to everyone in the 
+group dominate the site?
+Such network would be easily detected as 
+their posts (where the control points are spent)
+show exactly who assigned their control point 
+at which time to that post.
+A totally transparent process which reveals
+bots or shills in seconds.
+example:
+User A assigned 1 control point to User Bot at 17:43
+User A revokes 1 control point from User Bot at 23:55
+this information is in the control list 
+which shows the users balance and another list 
+for current assigned points.
+User with negative scores(lots of revoked control
+points will be easily detected and flagged to moderators).
+
+Q;will this be a threat to privacy/security?
+Users which reveal their personal information 
+should not use the site
+(the idea of enforcing using real names(i.e. google) is really idiotic )
+or sign up using a nickname that cannot be 
+traced to their real identity.
+The user on-site reputation should not affect
+their real-life reputation or the opposite.
+
+Q;What prevents anyone from signing up many accounts,
+waiting a year, assigning the points to other users 
+and repeating this again, then leaving all accounts 
+and coming back for repeat the account creation?
+The gained points from single-point account
+could be easily detected due system lowering score of 
+users spending their points(score reflecting control
+points amount)
+Additionally, users can only gain points 
+from active site use or other users.
+
+Q;what defines "active site use"?
+Participating in discussion,posting new content.
+Those which do not post content are not awarded anything.
+Passive site use is browsing and assigning
+control points(a form of voting).
+
+Q;will this lead to proliferation of spam and garbage posts?
+No, the posts which don't gain points 
+are not counted at all. The content must also gain
+points to qualify for bonus +1 per week.
+
+Q;what would prevent one from use 
+extra accounts to upvote their posts?
+They would need to create many accounts 
+which would be spotted as zero control point accounts
+(100's of accounts with 0 score voting on 1 post: 
+User A(0 score) awarded this post +1 control points).
+
+Q;what would prevent popular users from establishing a clique?
+The admins and moderators. Its up to the 
+owners of site to define the culture of the site.
+In addition popular users would not be as 
+influential as with unlimited karma-based sites,
+due control point scarcity and need to post
+content to get points(from users and "active site use").
+There is very little inflation as new users cannot
+vote as much as old users, who already assigned their points:
+i.e. there is scarcity of points at any time.
+
+
+Q;What about the influence of long-time users?
+Long time users should have that influence, 
+since they are engaged or were engaged in active site use.
+new users should adapt to local site culture 
+and gain their influence slowly, on their own accord,
+Not memetic explosions like gaining thousand 
+of karma for a picture of funny cat in a hour.
+(such scenarios could occur because of crowd
+psychology, but the users would feel bad for 
+assigning point to that picture later 
+and revoke them, assigning them to more 
+important content(such as news which doesn't have enough points)
+, thus moving the post score down and
+post location(score ordering) to the back pages.)
+
+Q:isn't +1 point per week of active use too low?
+This prevents point inflation, it can be changed
+to allow more dynamic sites(from 1h/point to 1week/points)-
+it depends on the size of site and how fast
+the maintainers want it to grow(1h per point will 
+make it more dynamic but points will be gained
+ fast, allowing new users to dominate: 1 per week
+ shifts balance to old timers with accumulated point pool).
+Most points gained should come from 
+other users not the site use bonus.
+With current karma systems, the content 
+is dominated by quick and easy-reading 
+link-bait content, which users blindly 
+upvote and forget after a hour,
+their karma points stay however
+and ruin the site quality - users can vote unlimited times
+on dumb, memetic trash without any cost. 
+
