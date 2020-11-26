@@ -1,0 +1,9 @@
+null regex trap;
+Naive filtering with one-pass filters that don't consider their output as potential threat and remove any content that fits the regex/word being filtered - by removing the string from the content(null string).
+
+
+Example:
+regex filter to remove javascript tag  /<script>/ to ""(empty string)
+<scr<script>ipt>  becomes <script>
+  Proper way: replace <script> with arbitrary non-executable string
+<scr<script>ipt> becomes <scr filt3red ipt>
