@@ -14,7 +14,10 @@ users add tags to posts(posts inside thread),
 threads(threads in category) and categories(category tags).
 Tags can be subscribed to, and filtered/blocked.
 Each comment,threads and category has a tag score:tag cloud with numbers:
-score is amount of users with positive karma 
+score is amount of users with positive karma(you can add tags while
+on negative karma, but it will not add +x to the tagscore number,
+only a spot in userlist which is sorted by karma scores of users)
+and reduce your own karma further into negative territory)
 who added this tag.e.g. cats(42) cute(89) funny(7)
 (shown only about 10-20 best scoring tags per tagged content)
 Tags can be private or public:private tags
