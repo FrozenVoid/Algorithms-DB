@@ -1,0 +1,9 @@
+A place rank system uses two algorithms:
+1.Upvote/downvote move the place-of-content +1/-1 in rank respectively.
+e.g. forum thread with 1 upvote, placed 3rd in rank/list, given one upvote
+will be place at 2nd place in list/rank.
+
+2.Initial placement;the place-of-content is placed in front of "new queue" list 
+and inserted in the specific place in "main queue" where 0 vote rank threads are placed.
+The thread list queue "recently popular" may reduce rank by N per hour to
+bias toward newer content.
