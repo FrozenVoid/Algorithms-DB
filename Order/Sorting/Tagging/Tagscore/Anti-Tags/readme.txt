@@ -7,4 +7,7 @@ but after a hour 40 people add 'funny' tag to the post;
 the score is -5+40 is +funny(35) and the post is shown in 'funny' taglist for posts.
 anti-tags are not displayed on thread/post score normally,
 but will be shown if users wants to see them.
+anti-tags can exist without positive tags(normal tags)
+e.g. a post can have -funny(1) anti-tag score which would not show it in 'funny' taglist, until people add +2 normal tags setting tagscore to +funny(1).
+
 
