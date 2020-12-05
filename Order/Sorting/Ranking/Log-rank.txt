@@ -3,6 +3,9 @@ log() compresses ranges into a format easily understood as magnitude(2^f)
 where f grows fast in low range and changes slowly with large numbers;
 10^e=2^(2.3*e) giving about ~2.3 unit length to each 10^e <>10^e+1 interval(an order of magnitide) e.g. 1000=6.9077 rank=~2.3*3(1e3).
 
-
-
+Typical metrics;
+1.Popularity: views/unique user viewing(all time/month/week/today/this hour)
+2.activity; comment count,active particpants count, users(active in thread)*comment_count.
+3.Content size: total size of text comments+initial text content
+4.Ratings: thread rating, combined comment ratings.
 
