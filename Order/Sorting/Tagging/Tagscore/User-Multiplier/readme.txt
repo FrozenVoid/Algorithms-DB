@@ -1,5 +1,8 @@
 User Multiplier is a tag filtering mechanism that
-doesn't block the tag but reduces its tagscore;
+doesn't block the tag but reduces its tagscore;-
+This is used for mixed tag listings where post's highest scoring tags
+determine its rank(e.g. post with #cat at 10 votes and #dog at 20 votes will 
+be normally ranked 20 in such a listing)
 example;
 user A likes tag #cat and doesn't like tag #dog, but doesn't want to block
 all #dog posts because sometimes there are good enough posts with this tag.
