@@ -1,5 +1,5 @@
 A folder tree representation of content is a direct translation 
-of filesystem object hierarchy. 
+of filesystem object hierarchy, represented as a tree. 
 example:
 website.com/category1/subcategory/subcategory2/content.htm
 category1 is a subfolder at website.com "main" folder.
