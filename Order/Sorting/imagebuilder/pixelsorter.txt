@@ -1,0 +1,5 @@
+1.random image pixels generated.
+2.two pixel locations chosen
+3.if swapping loca with locb decreases pixel difference from
+central pixel to its neightbours, the swap is confirmed.
+4.repeat until specific degree of similarity reached/ 
