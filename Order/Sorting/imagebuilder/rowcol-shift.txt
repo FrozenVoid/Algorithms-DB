@@ -1,0 +1,4 @@
+1.randomly generate pixel image.
+2.shift column/row n pixels that results in new image.
+3.if new image has less combined pixel differences between neightbours' center-3x3
+keep it and repeat with another random row/col
