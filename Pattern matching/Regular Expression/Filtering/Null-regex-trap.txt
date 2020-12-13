@@ -6,4 +6,6 @@ Example:
 regex filter to remove javascript tag  /<script>/ to ""(empty string)
 <scr<script>ipt>  becomes <script>
   Proper way: replace <script> with arbitrary non-executable string
-<scr<script>ipt> becomes <scr filt3red ipt>
+<scr<script>ipt> becomes <scr ;&nbsp ipt>
+;&nbsp can be replaced by specific string indicating the filter
+used like 'filter253' to see which exact word triggered it.
