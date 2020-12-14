@@ -1,0 +1,9 @@
+Density of unique content vs total content:
+when estimating content piece(webpage/thread/post)
+its judged as part of its category(website,subforum,thread)
+content - the ratio of 'unique content' per category
+is the calculated as:
+unique_content/total_content.
+highly redudant content in a content piece will have 0 rating.
+Unique content will have normal x1.0 rating and content
+with non-unique parts will have rating multiplier between 0.0-1.0,
