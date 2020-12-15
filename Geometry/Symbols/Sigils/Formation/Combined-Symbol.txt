@@ -1,0 +1,4 @@
+rendering of overlapping unicode symbols in same location
+will create a sigil combining both letters/symbols.
+CSS styling can be used to force such combinations with transparent
+cell of top symbol overlapping the cells of below symbols.
