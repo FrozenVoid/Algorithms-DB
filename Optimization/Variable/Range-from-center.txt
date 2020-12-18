@@ -1,0 +1,9 @@
+Range from center algorithm is a technique to
+generate trial variables for testing function optimization.
+A variable X is being optimized:
+1.Right array is generated with values X+(epsilon_typeof(X)*(4^array_place))
+2.Left array is generated with values X-(epsilon_typeof(X)*(4^array_place))
+both arrays are run through function() and best value in the array,
+as determined by fitness to criteria is set as new X,
+which can be later used again to generate another set arrays,
+until the center value is determined to be the best by criteria.
