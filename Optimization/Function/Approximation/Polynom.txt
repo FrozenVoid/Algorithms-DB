@@ -1,0 +1,7 @@
+an approximation of (uniform range) func(x) can be obtained with
+(a*x+c)^(b*x+d) where a,c,b,d are specific constants to optimize.
+If base(a*x) is irrelevant factor a will be close to zero
+if added base value(c) is irrelevant c will be zero.
+if power(b*x) is not x-depedent b would be close to zero
+if power is depedent only on x, d will be zero
+
