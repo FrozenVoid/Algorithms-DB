@@ -1,0 +1,13 @@
+binary split(binary search) is a basic algorithm to determine
+value in range that is closest to criteria(fitness function) if the range is ordered. If the range produces non-ordered values for criteria comparison,
+the search will fail.
+Steps.
+1.Pick value A and B in ordered range.
+2.If both A and B result below criteria, double the largest value
+until its above criteria.If both are above criteria, half the smallest value
+until its below criteria.
+3.When you have A below criteria and B above criteria:
+3a.Test value (B-((B-A)/2)) which is in between A and B(average of a <> b).
+If the new(average) value is equal to criteria, A or B, the search is done.
+4.If the new value is below criteria it replaces A and step 3 is repeated
+If the new value is above criteria it replaces B and step 3 is repeated.
