@@ -1,0 +1,2 @@
+a rank/placement of content/thread is determined solely by its score.
+This is most simple ranking system and is expressed as sorting by score.
