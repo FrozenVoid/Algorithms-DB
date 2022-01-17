@@ -1,0 +1,21 @@
+Engagement ratio is calculated
+as numbers of users who
+viewed vs who also interacted with content.
+
+Engegement is shaped by
+visibility: low-visibility content
+with high-engagement is often 
+neglected(e.g. deeply nested
+comments).
+
+Example:
+Post A has 3 replies and 30 views.
+Post B has 6 replies and 16 views.
+Post A has engagement ratio of 3/40=0.1(10%)
+Post B has engagement ratio of 6/16=0.375(37.5%)
+(only views of users able to reply
+count here).
+Despite being nearly twice less 
+popular, B has three times the engagement,
+thus making it a significant content
+piece.
