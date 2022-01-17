@@ -1,0 +1,14 @@
+Content is rated by total
+unique users which viewed it,
+divided by total unique users
+on website/category in specific period.
+
+Formula: Viewers/(1+Total)
+Example: there are 500 users
+online in last hour, but only
+20 viewed content_A, making its
+'rating' equal to 20/501=0.0399
+vs 200 viewed content B
+which is rated 200/501=0.399
+
+
