@@ -1,0 +1,14 @@
+1.file is converted to a bitset array.
+2.bitset array is converted to
+gray code(x^(x>>1))
+3.the amount of resulting bit
+transitions is recorded as entropy
+ number (see https://github.com/FrozenVoid/Infodump-DB/blob/main/Information/Entropy/bit-transitions.txt )
+4.If the number of bit transitions
+is lower than record,save
+the bitset+number as 'best candidate'
+5.Repeat 2-4 until the bitset
+is equal to initial file bitset:
+i.e. recurisive grey code loop end.
+6.record 'best candidate' + number
+of bit transitions as 'least entropy form'.
