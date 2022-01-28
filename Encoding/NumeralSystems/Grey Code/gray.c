@@ -30,13 +30,14 @@ char resfilename[255];
 if(argv[1][0]=='e'){//encode
 print("Encoding:",argv[2]," Popcount:",cbits,"\n");
 mpz_set(b,fileint);
-mpz_set(a,fileint);
+mpz_set(a,fileint);mpz_set(best,fileint);
 for( ;;){iter++;
  mpz_tdiv_q_2exp (a,a, 1);//x>>1
  //print("tdiv");
  mpz_xor (b,b, a);//x^(x>>1);
 cbits= mpz_popcount(b);//bit transitions=popcount of prev gray code.
 mpz_set(a,b);
+if(!(iter&0xffff))print("Current iter:",iter,"\n");
 if(!mpz_cmp (b,fileint))break;
 
 //print(cbits,"\n");
@@ -46,7 +47,7 @@ bestiter=iter;}
 
 }
 
-print("Encoding done: Best iter->",bestiter," of ",iter);
+print("Encoding done:", bestbits, " bits\nBest iter->",bestiter," of ",iter);
 mpz_export (data, NULL, 1, 1,0,0, best);
 sprintf(resfilename,"%s.%" PRIu64,argv[2],bestiter);
 out=fopen(resfilename,"wb");
@@ -65,6 +66,7 @@ while(mpz_cmp_ui(a,0)!=0){
  //print("tdiv");
  mpz_xor (b,b, a);//x^(x>>1);
 }
+if(!(iters&0xff))print("Remaining iters:",iters,"\n");
 mpz_set(a,b);//print(iters,"\n");
 }
 
