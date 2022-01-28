@@ -2,14 +2,15 @@
 #include "gmp.h"
 #define mpz1(var) mpz_t var;mpz_init(var);
 #define mpz(var...) toatom(chainapply(mpz1,var))
-
-
+#define bitspan 8
+#define percent print("\nIter:",iter,"Popcount:",cbits, " Percent:",100.0*( cbits/(fsize*8.0)));
 #define retcline return __LINE__
  char *get_filename_ext( char *filename) {
      char *dot = strrchr(filename, '.');
     if(!dot || dot == filename) return "";
     return dot + 1;
 }
+
 int main(int argc,char**argv){
 if(argc<3){print("Syntax:inf e|d file\ne=encode d=decode");retcline;}
 FILE* in=fopen(argv[2],"rb");
@@ -20,6 +21,7 @@ print("File:",argv[2]," Size:",fsize,"\n");
 if(!data){perror("Memory allocation failed");retcline;}
 u64 bytes_read=fread(data,1,fsize,in);
 if(bytes_read!=fsize){perror("Read size mismatch, data incomplete");retcline;}
+if(fsize<bitspan){perror("File too small");retcline;}
 mpz(fileint,temp,a,b,best,res);
 mpz_import (fileint, fsize, 1, 1, 0, 0, data);
 
@@ -29,20 +31,20 @@ u64 bestbits=cbits;
 char resfilename[255];
 if(argv[1][0]=='e'){//encode
 print("Encoding:",argv[2]," Popcount:",cbits,"\n");
+percent ;
 mpz_set(b,fileint);
 mpz_set(a,fileint);mpz_set(best,fileint);
 for( ;;){iter++;
  mpz_tdiv_q_2exp (a,a, 1);//x>>1
- //print("tdiv");
  mpz_xor (b,b, a);//x^(x>>1);
 cbits= mpz_popcount(b);//bit transitions=popcount of prev gray code.
 mpz_set(a,b);
-if(!(iter&0xffff))print("Current iter:",iter,"\n");
+if(!(iter&0xffff))putchar('*');
 if(!mpz_cmp (b,fileint))break;
 
 //print(cbits,"\n");
-if(cbits<bestbits){bestbits=cbits;mpz_set(best,a);
-print("Iter:",iter,"Bits:",cbits,"\n");
+if(cbits<bestbits ){bestbits=cbits;mpz_set(best,a);
+percent;
 bestiter=iter;}
 
 }
