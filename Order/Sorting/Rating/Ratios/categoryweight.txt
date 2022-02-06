@@ -1,0 +1,8 @@
+avg=((total count of category)/(num_members))
+unique_member_count/avg=categoryweight
+Example:
+Count=metric of measure
+Members=Size of category units
+CategoryA: Count=20000 Members=200
+avg=20000/200=100
+MemberA:Count 10 categoryweight->10/100=0.1
