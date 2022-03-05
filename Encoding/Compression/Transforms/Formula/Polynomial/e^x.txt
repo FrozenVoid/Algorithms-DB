@@ -1,0 +1,2 @@
+Natural log e^x/2^n(x=float)
+divided by 2^n(shift left)
