@@ -1,0 +1,5 @@
+log(Unique_IPs)
+Unique_IPs -> domains with unique
+IP address that refer to destination
+content/domain, setting a 
+baseline "popularity index".
