@@ -1,0 +1,16 @@
+A real number can be represented
+ with arbitrary precision as
+a polynomial of form(base 10
+can be replace by any base >1)
+using Level Index arithmethic
+for each level(separate LI values as
+ members of polynomial)
+(
+see https://stackoverflow.com/questions/29157639/what-are-the-benefits-of-symmetric-level-index-arithmetic-alternative-to-floati )
+where a is 0.0-1.0
+
+(
+10^-1*a4)+10^a1+(10^(10^a2))+10^(10^(10^a3)...
+
+ 
+ 
