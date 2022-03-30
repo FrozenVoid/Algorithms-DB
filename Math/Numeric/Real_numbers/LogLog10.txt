@@ -1,0 +1,2 @@
++/- (10^10^q-1.0)
+where q is double/long double.
