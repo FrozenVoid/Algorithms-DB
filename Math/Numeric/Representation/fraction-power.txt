@@ -1,0 +1,3 @@
+int128 fraction -1.0 <> 1.0
+int128 power 
+fraction * (10^power)
