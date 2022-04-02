@@ -1,0 +1,15 @@
+General idea:
+Image components are 
+split(chroma,luma,alpha) 
+and converted to large integers,
+ a polynomial of form
+ base^a-base^b+base^c-base^d...
+ is optimized using iterative
+repair to approach the 
+integer value of image component.
+base and array of powers are
+saved instead of component.
+Decoder just evaluates the 
+polynomial, discarding the fractional part.
+
+
