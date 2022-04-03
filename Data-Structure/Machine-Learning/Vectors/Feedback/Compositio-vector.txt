@@ -1,0 +1,6 @@
+An array of word pairs,
+e.g. sun,beam : sun,dog :sun,set
+is ordered by density of appearance
+as compound word(not associations,
+ but as single unit which is not 
+ reversible)
