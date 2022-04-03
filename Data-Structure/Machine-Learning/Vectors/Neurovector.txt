@@ -1,0 +1,6 @@
+A single concept can be mapped
+into N-dimensional vector
+space x,y,z,... where 
+distance between concept's coords
+signify strength of association:
+
