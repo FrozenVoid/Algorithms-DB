@@ -1,0 +1,5 @@
+an array of pairs,e.g.
+sun,moon : sun,circle :
+sun,cloud : sun,fusion 
+has to be arranger by closest 
+association order(e.g. 1,4,2,3).
