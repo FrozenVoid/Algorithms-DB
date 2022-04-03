@@ -1,0 +1,6 @@
+Two random concept-vector pairs
+ are presented to arbiter:
+ e.g. sun,moon : sun, circle
+Arbiter has to decide whether 
+the first pair or second pair
+is more closely associated.
