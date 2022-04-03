@@ -1,0 +1,8 @@
+Shapes are abstract visual 
+sets that can be mapped to
+ vector space: the idea is to
+ create a random vector for shape
+ and modify it dynamically as
+ its distance to other vectors
+ (concepts/shapes) is determined
+in iterative repair on its components.
