@@ -1,0 +1,8 @@
+A diagonal x,y or y,x is
+ stored,
+at each iteration, 
+a left-side and right-side of
+diagonal(smaller nearest diagonals) are constructed from
+transforming the previous diagonal
+ via a function(e.g. xor).
+ 
