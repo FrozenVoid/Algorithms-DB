@@ -1,0 +1,4 @@
+A corner pixel is expanded
+to L-shape around it via 
+transform, with next L-shape
+operating on previous.
