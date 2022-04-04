@@ -1,0 +1,11 @@
+A 1-pixel wide outer frame
+of an image(all edge lines as square) is stored,
+as NxM template.
+Each iteration is xoring
+the inner frame(1-pixel to center)
+and storing this difference,
+until the center frame is reach.
+Deconding: the initial frame
+square is xored with inner frame
+XOR values to reconstruct it,
+then another inner frame.
