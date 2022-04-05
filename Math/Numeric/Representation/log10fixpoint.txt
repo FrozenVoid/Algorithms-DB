@@ -1,0 +1,3 @@
++/-10^int64
+where int64 is fixed point
+number with 15bit integer part
