@@ -1,0 +1,5 @@
+the function (10^x)/(10^x+1)
+maps -inf < x > inf to 0< val >1
+at -Inf = 0/1 = 0
+at 0 = 10^0/2=(exact 1/2)
+at +Inf = Inf/Inf ~=1
