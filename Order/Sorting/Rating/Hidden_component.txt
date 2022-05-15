@@ -1,0 +1,5 @@
+Content piece ratings could be controlled
+in form of 'Hidden components',
+instead of providing raw stats of votes
+only a secondary metric(e.g.:n% liked that) is 
+provided for sorting/viewing.
