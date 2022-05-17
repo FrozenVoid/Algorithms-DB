@@ -1,0 +1,33 @@
+When most people are presented wuth a rating
+they tend to vote extreme: highest or lowest 
+rating. Why this occurs:
+
+1.Extreme votes amplify voting power
+in "naive average" system, which calculate
+average "score": voting 5 vs 10 dilutes the
+"upvoter power".
+
+2.They perceive the ranking will transfer
+to their reccomended content better if
+the algorithm is strongly encouraged/discouraged
+with the rating:i.e. lowest score means=exclude 
+this content,highest score=i want to see similar content.
+
+3.Rating is often emotional reaction from
+first view of content: often the viewer
+ would adopt a more moderate rating after
+ viewing similar content.
+ 
+4.Extreme ratings can be viewed as applied to
+content uploader: instead of rating the content,
+the viewer extreme rating is expression of 
+"want/don't want" this content type from uploader.
+
+5.In some cases extreme ratings stem from
+limited selection of range(e.g. 5 out of 5)
+where 5 signifies some minimal standard which
+would be "above 4/5" and not "best",likewise
+1/5 would signify something below "2/5" and
+not "worst", though best/worst will also
+be lumped with 4+/5 and 2-/5 type content.
+
