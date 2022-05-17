@@ -1,0 +1,16 @@
+most reccomendation algorithms lack
+an option to tune the source weights:
+all related content is treated the same.
+A negative feedback option would 
+expose the "source error":
+e.g. You were reccomended X because of Y(specific
+ content piece/tag/category interest),
+would you like to:
+1.Exclude Y from reccomendations
+2.Downrank Y weight in reccomendations
+3.Increase Y weight in reccomendations
+Most websites think the algorithm would
+eventually deduce user preferences after
+a thousand "dislike" interactions but these
+interactions will generate another chain
+of disliked content.
