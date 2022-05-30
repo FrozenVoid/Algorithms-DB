@@ -20,3 +20,8 @@ final rating 5.5*0.5=2.75
 550000/100000 votes=5.5 avg
 scaled to 1.0-((10000^2*10)/100000^2))=0.9
 final rating 5.5*0.9=4.95
+
+all 10000 votes for "10/10"(e.g. fake bot vote)
+100000/10000=10.0 avg
+scaled to 1.0-(10000^2/10000^2)=0.0
+final rating 10.0*0.0=0.0
