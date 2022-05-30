@@ -8,3 +8,15 @@ Avg*(1.0-((1'N)^2+(2'N)^2+(3'N)^2+
 (4'N)^2+
 (5'N)^2+(6'N)^2+(7'N)^2+(8'N)^2+
 (9'N)^2+(10'N)^2)/N^2)
+
+
+Example with extreme vs normal rating:
+10000 "10" votes + 10000 "1" votes
+avg=110k /20k=5.5
+scaled to 1.0-(10k^2+10k^2)/20k^2=0.5
+final rating 5.5*0.5=2.75
+
+10000 each number vote(x10)
+550000/100000 votes=5.5 avg
+scaled to 1.0-((10000^2*10)/100000^2))=0.9
+final rating 5.5*0.9=4.95
