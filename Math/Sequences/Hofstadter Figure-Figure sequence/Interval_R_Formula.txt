@@ -3,7 +3,8 @@ Hofstadter Figure-Figure sequence Nth
  from ((N*N)/2)+e^(1.5*(log(N/2)) )
  to  ((N*N)/2)+e^(1.5*(log(N)) )
 
-with upper limit becoming more accurate as N->inf
+with upper limit being most accurate approximation
+as N grows
 
 log(x)  natural log
 
