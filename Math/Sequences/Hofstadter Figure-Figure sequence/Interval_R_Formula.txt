@@ -5,6 +5,9 @@ Hofstadter Figure-Figure sequence Nth
 
 with upper limit being most accurate approximation
 as N grows
+more precise lower limit is
+ from ((N*N)/2)+e^(1.5*(log((N*(0.5^(2/log(N)))))) ) for large N
+
 
 log(x)  natural log
 
